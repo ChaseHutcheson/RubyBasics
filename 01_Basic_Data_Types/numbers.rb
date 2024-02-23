@@ -1,24 +1,40 @@
+# Arithmetic
 # Addition
-print "1 + 1 = ", 1 + 1, "\n"
+puts "1 + 2 = #{1 + 2}"
 
 # Subtraction
-print "1 - 1 = ", 1 - 1, "\n"
+puts "1 - 2 = #{1 - 2}"
 
 # Multiplication
-print "1 * 1 = ", 1 * 1, "\n"
+puts "1 * 2 = #{1 * 2}"
 
 # Division
-print "1 / 1 = ", 1 / 1, "\n"
+puts "1 / 2 = #{1 / 2}"
 
 # Exponents
-print "2 ** 4 = ", 2 ** 4, "\n"
+puts "2 ** 3 = #{2 ** 3}"
 
 # Modulus / Modulo
-print "8 % 3 = ", 8 % 3, "\n"
+puts "8 % 3 = #{8 % 3}", "\n"
 
-# Integers and Floats *NOTE: Arithmatic always results in Integers
+# Integers and Floats (NOTE: Arithmetic always results in Integers)
 # Integer
-print "Integer (Whole Number): ", 17, "\n"
+puts "Integer (Whole Number): #{17}"
 
 # Float
-print "Float (Decimal): ", 17.9, "\n"
+puts "Float (Decimal): #{17.9}", "\n"
+
+# Converting number types
+# Converting an Integer to Float:
+puts 13.to_f
+
+# Converting a Float to Integer (Floats round down):
+puts 13.to_i
+puts 13.9.to_i, "\n"
+
+# Useful Number Methods
+puts 13.even?
+puts 14.even?
+
+puts 13.odd?
+puts 14.odd?
