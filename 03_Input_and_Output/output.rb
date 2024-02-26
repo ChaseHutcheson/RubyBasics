@@ -12,4 +12,5 @@ puts "Command 1"; puts "Command 2"
 
 # As you see the second command is printed on a newline thanks to the first puts command
 
-# (Note: print commands return nil)
+# Prints also have returns. Both puts and prints return nil
+  
